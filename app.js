@@ -26,6 +26,7 @@ app.get("/zip", (req, res, next) => {
     }
 });
 
+// taken from: https://www.movable-type.co.uk/scripts/latlong.html
 const distance = (lat1, lon1, lat2, lon2) => {
     const R = 6371e3; // metres
     const φ1 = lat1 * Math.PI/180; // φ, λ in radians
