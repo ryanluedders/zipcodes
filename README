@@ -1,0 +1,29 @@
+nodezip
+-------
+
+provides a zip code distance API using zipcode data from the US census.
+
+Requires node to be installed: https://nodejs.org/en/download/
+
+to run the API (from command line)
+
+    > node app.js
+
+to use the API, 
+
+    via your browser, visit a URL
+
+    for zip code lat/lon ->
+    http://localhost:3000/zip?zip=68130
+
+    for distance between zip codes ->
+    http://localhost:3000/zipdistance?zip1=68130&zip2=64114
+
+
+    or via CURL
+
+    for zip code lat/lon ->
+    > curl -X GET "localhost:3000/zip?zip=68130"
+
+    for distance between zip codes ->
+    > curl -X GET "localhost:3000/zipdistance?zip1=68130&zip2=64114"
