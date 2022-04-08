@@ -1,0 +1,23 @@
+{
+  "name": "nodezip",
+  "version": "1.0.0",
+  "description": "nodezip -------",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanluedders/zipcodes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanluedders/zipcodes/issues"
+  },
+  "homepage": "https://github.com/ryanluedders/zipcodes#readme"
+}
